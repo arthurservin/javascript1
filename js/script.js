@@ -257,5 +257,7 @@ let faveAndLeast = [];
 faveAndLeast.push(favMovies[0], favMovies[3]);
 
 for (let i = 0; i < favMovies.length; i++) {
-  if(input === alert(`${favMovies[i][0]} ${favMovies[i],[1]};
+  if(input === alert(`${favMovies[i][0]} ${favMovies[i],[1]}
+
 }
+////I missed this
