@@ -2,11 +2,11 @@
 
 //Arrays
 
-let myArray = [];  ///most basic form
+// let myArray = [];  ///most basic form
 
-let favFoods = ["pizza", "hamburger", "french fries"]; //needs to be in quotations
+// let favFoods = ["pizza", "hamburger", "french fries"]; //needs to be in quotations
 
-let allThings = ['strings', 23, ['stuff'], {}, false]; //length of arrays = how many items seperated by commas
+// let allThings = ['strings', 23, ['stuff'], {}, false]; //length of arrays = how many items seperated by commas
 
 ///first in the array is 0, starts a zero
 
@@ -14,7 +14,7 @@ let allThings = ['strings', 23, ['stuff'], {}, false]; //length of arrays = how 
 
 
 //TRY OUT 1
-var randomStuff = ['Tag', 720,true, 2004];
+// var randomStuff = ['Tag', 720,true, 2004];
 //console.log(randomStuff,randomStuff.length);
 
 
@@ -127,6 +127,118 @@ var randomStuff = ['Tag', 720,true, 2004];
 
 //in class practice 2, by teach
 
+// let favMovies = [];
+
+// let favorite = ["Dumb and Dumber", "Lloyd Chistmas"];
+// let secondFav = ["Casino", "Joe Pesci"];
+// let thirdFav = ["Resavoir Dogs", "Mr. Pink"];
+// let fourthFav = ["Heat", "Doc"];
+
+///
+// favMovies.push(favorite, secondFav, thirdFav, fourthFav);
+
+// console.log(favMovies); //to check if it works
+
+// let titles = [];
+
+// titles.push(favMovies[0][0], favMovies[1][0], favMovies[2][0]);
+
+
+// alert(titles);
+
+/////
+
+// let faveAndLeast = [];
+
+// faveAndLeast.push(favMovies[0], favMovies[3]);
+
+// console.log(faveAndLeast);
+
+// alert(favMovies.length);
+
+
+///////////////////////
+/// Day 4 continued
+
+// for (let i = 0; i < 5; i++) {  /// first
+  // console.log('Hi');
+// }
+
+// for (let i = 0; i < 5; i++) {
+  // console.log(`The number is ${i}`);
+// }
+
+
+////////////test trying to get in multiples of 10 to 100
+// for (let i = 0; i < 11; i++) {
+//   console.log(`The number is ${i*10}`);
+// }
+
+
+///array ////   need to revisit
+// const colors = ['blue', 'red', 'green', 'purple'];
+// //
+// // console.log(colors[index]);
+// //
+// for (let index = 0; index < colors.length; index++){
+//   console.log(colors[index]);
+//   if (index === 1)break; ///stops loop at index identified
+// }
+
+//while Loops
+
+// let counter = 0;
+// while(counter < 5) {
+//   console.log(`before ${counter}`);
+//   counter++;
+//   console.log(`after ${counter}`);
+// }
+
+
+/// continue
+//
+// for (let index = 0; index < colors.length; index++){
+//   console.log(colors[index]);
+//   continue;
+//   console.log('why cant you see me');
+// }
+
+
+////For EACH
+
+// const captains = ['Kirk', 'Picard', 'Sisko', 'Janwady', 'Lorca'];
+//
+// captains.forEach( (captain, index) => { ///    => means "fat arrow"
+//   console.log(captain, index)
+// } )
+
+
+
+/// For Of
+
+// const captains = ['Kirk', 'Picard', 'Sisko', 'Janwady', 'Lorca'];
+//
+// for(let captain of captains) {
+//   console.log(`Hello Captain ${captain}`);
+// }  ////first name what ever you want, second have to be existing array
+
+///for..in is for obejects
+
+// const me = {
+//   firstName: 'Art',
+//   secondName: 'Rob',
+//   age: 32
+// }
+//
+//
+// for (let property in me) {
+// console.log(me[property]);
+// }
+
+
+
+///////////try out #1
+
 let favMovies = [];
 
 let favorite = ["Dumb and Dumber", "Lloyd Chistmas"];
@@ -134,24 +246,16 @@ let secondFav = ["Casino", "Joe Pesci"];
 let thirdFav = ["Resavoir Dogs", "Mr. Pink"];
 let fourthFav = ["Heat", "Doc"];
 
-///
-favMovies.push(favorite, secondFav, thirdFav, fourthFav);
+//my attempt
+// for (let i = 0; i < 4; i++) {
+//   console.log(favMovies);
+// }
 
-// console.log(favMovies); //to check if it works
-
-let titles = [];
-
-titles.push(favMovies[0][0], favMovies[1][0], favMovies[2][0]);
-
-
-alert(titles);
-
-/////
+///actual
 
 let faveAndLeast = [];
-
 faveAndLeast.push(favMovies[0], favMovies[3]);
 
-console.log(faveAndLeast);
-
-alert(favMovies.length);
+for (let i = 0; i < favMovies.length; i++) {
+  if(input === alert(`${favMovies[i][0]} ${favMovies[i],[1]};
+}
