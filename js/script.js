@@ -5,14 +5,14 @@
 // }; ///end of the funtion
 
 
-//// cant refer to funstion in code since it has no name
+//// cant refer to function in code since it has no name
 
 
 //// NAMED FUNCTIONS
 
-function addTwo(num) {
-  return num += 2;
-};
+// function addTwo(num) {
+//   return num += 2;
+// };
 
 ////funtion should be object oriented and always return the same value if given the same value
 
@@ -28,17 +28,17 @@ function addTwo(num) {
 //
 // let myNewNumber = addTwo(43);
 
-
-function logMyString(string) {
-  console.log(string);
-};
-
-logMyString('Im the best');
-
-
-function alertAd() {  ///is hoisted FUNCTION DECLARATION
-  alert('We have a sale!');
-};
+//
+// function logMyString(string) {
+//   console.log(string);
+// };
+//
+// logMyString('Im the best');
+//
+//
+// function alertAd() {  ///is hoisted FUNCTION DECLARATION
+//   alert('We have a sale!');
+// };
 
 
 // alertAd();  ////starts runnning the function until it gets called, which is happening here
@@ -46,50 +46,77 @@ function alertAd() {  ///is hoisted FUNCTION DECLARATION
 
 ///FUNCTION EXPRESSSION  (not hoisted)
 
-let confirmStuff = function(someString)  {
-let newVariable = 'cheese';
-confirm(someString)
-};
-
-// console.log(newVariable) //does not operate, it only exist inside the function and is not seen
+// let confirmStuff = function(someString)  {
+// let newVariable = 'cheese';
+// confirm(someString)
+// };
+//
+// console.log(newVariable); //does not operate, it only exist inside the function and is not seen
 
 ////RECURSIVE FUNCTION calls onto itself
 
-let i = 0
-function iCallMyself() {
-  console.log(i);
-  i++;
-  if(i < 10) iCallMyself();
-};
+// let i = 0
+// function iCallMyself() {
+//   console.log(i);
+//   i++;
+//   if(i < 10) iCallMyself();
+// };
 
 
-// iCallMyself();
-
+// iCallMyself
 
 /// ARROW FUNCTIONS
 
-(logFunction, alertFunction) => {  /// fat arrow means theres no function keyword
-  logFunction('hello world');
-  alertFunction('Goodbye, friends!');
+// (logFunction, alertFunction) => {  /// fat arrow means theres no function keyword
+//   logFunction('hello world');
+//   alertFunction('Goodbye, friends!');
+// };
+//
+// // ONLY 1 arguments
+//
+// string => {
+//   console.log(string);
+// };
+
+/// espressed FUNCTION
+
+// let logString = string => {
+//   console.log(string);
+// };
+//
+// logString('Hello Cats')
+//
+//
+//
+// string => (string.toUpperCase()); //// only works when one thing needs to be done
+
+
+
+//// PRACTICE AS TAKEHOME
+
+// function dogAge(num) {
+//   return num * 7;
+// };
+//
+// alert(dogAge(3));
+
+/////////////  PART 2
+
+
+
+function yearsLeft(death, now) {
+    return death - now;
 };
 
-// ONLY 1 arguments
+deathClock = yearsLeft(80, 32);
 
-string => {
-  console.log(string);
+function lifeQtips(deathClock, yearlyTips) {
+    return deathClock * yearlyTips;
 };
 
+allTips = lifeQtips(deathClock,1095);
 
-
-
-
-
-
-
-
-
-
-
+alert(`You will need ${allTips} to last you until you are ${80}`);
 
 
 //
