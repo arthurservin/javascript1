@@ -103,20 +103,38 @@
 /////////////  PART 2
 
 
-
-function yearsLeft(death, now) {
-    return death - now;
-};
-
-deathClock = yearsLeft(80, 32);
-
-function lifeQtips(deathClock, yearlyTips) {
-    return deathClock * yearlyTips;
-};
-
-allTips = lifeQtips(deathClock,1095);
-
-alert(`You will need ${allTips} to last you until you are ${80}`);
+//
+// function yearsLeft(death, now) {
+//     return death - now;
+// };
+//
+// deathClock = yearsLeft(80, 32);
+//
+// function lifeQtips(deathClock, yearlyTips) {
+//     return deathClock * yearlyTips;
+// };
+//
+// allTips = lifeQtips(deathClock,1095);
+//
+// alert(`You will need ${allTips} to last you until you are ${80}`);
 
 
 //
+
+///////////////  METHODS
+// associated with an object, the log in console.log is a method (left is object, right is method)
+// all methods are funtions but not all funtions are methods
+
+
+"anything".toUpperCase();  ///is only upper casing when the "anything appears"
+
+
+
+
+
+
+
+
+
+
+////
